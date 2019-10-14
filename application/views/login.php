@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="card-body">
             <h5 class="card-title text-center">Sign In</h5>
             <form class="form-signin">
-              <div class="form-label-group">
+             <!-- <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                 <label for="inputEmail">Email address</label>
               </div>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                 <label class="custom-control-label" for="customCheck1">Remember password</label>
               </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>-->
               <hr class="my-4">
               <button id="google_login" onclick="setCookie('link', 'google', 1)" class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i><a href="<?php 
 							if(isset($google_client_id) && isset($google_redirect_uri))
